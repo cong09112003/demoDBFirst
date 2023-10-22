@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ScienceSolverModelStoreContainer" CdmEntityContainer="ScienceSolverDFContext">
+    <EntitySetMapping Name="Chemical_Element">
+      <EntityTypeMapping TypeName="ScienceSolverModel.Chemical_Element">
+        <MappingFragment StoreEntitySet="Chemical_Element">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AtomicMass" ColumnName="AtomicMass" />
+          <ScalarProperty Name="Configuration" ColumnName="Configuration" />
+          <ScalarProperty Name="Electronegativity" ColumnName="Electronegativity" />
+          <ScalarProperty Name="Oxidation" ColumnName="Oxidation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chemical_Element_View">
+      <EntityTypeMapping TypeName="ScienceSolverModel.Chemical_Element_View">
+        <MappingFragment StoreEntitySet="Chemical_Element_View">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Symbol" ColumnName="Symbol" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="AtomicMass" ColumnName="AtomicMass" />
+          <ScalarProperty Name="Configuration" ColumnName="Configuration" />
+          <ScalarProperty Name="Electronegativity" ColumnName="Electronegativity" />
+          <ScalarProperty Name="Oxidation" ColumnName="Oxidation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
